@@ -8,9 +8,13 @@ import java.util.Date;
  * @Date : Created in 14:36 2021/02/21
  **/
 public class WechatAuth {
+    // ID
     private Long wechatAuthId;
+    // openID
     private String openId;
+    // 创建时间
     private Date createTime;
+    // 用户ID
     private PersonInfo personInfo;
 
     public Long getWechatAuthId() {

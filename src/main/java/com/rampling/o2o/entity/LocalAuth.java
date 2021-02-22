@@ -8,11 +8,17 @@ import java.util.Date;
  * @Date : Created in 14:39 2021/02/21
  **/
 public class LocalAuth {
+    // ID
     private Long localAuthId;
+    // 用户名
     private String username;
+    // 密码
     private String password;
+    // 创建时间
     private Date createTime;
+    // 修改时间
     private Date lastEditTime;
+    // 用户ID
     private PersonInfo personInfo;
 
     public Long getLocalAuthId() {
